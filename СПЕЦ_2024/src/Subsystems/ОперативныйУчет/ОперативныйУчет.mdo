@@ -10,4 +10,10 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ОперативныйУчет</picture>
   </picture>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Catalog.Склады</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>AccumulationRegister.СебестоимостьНоменклатуры</content>
+  <content>Report.ОстаткиТовара</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
 </mdclass:Subsystem>

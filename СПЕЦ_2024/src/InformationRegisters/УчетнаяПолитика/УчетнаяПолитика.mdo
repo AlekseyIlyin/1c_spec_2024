@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a497dbcb-4134-4351-af2f-0bfe0aad2cf4">
+  <producedTypes>
+    <selectionType typeId="1c7b6d7a-c5cc-4c52-86e1-ac29d54097cf" valueTypeId="54adff12-2655-44ef-acb6-ef59a4dcd386"/>
+    <listType typeId="5d25b183-5456-4790-8f4c-a04b6ff634a9" valueTypeId="acbd53b0-c133-4211-9206-9c541ed3d590"/>
+    <managerType typeId="84435991-345d-4d4d-ae2c-ab72a0734f6d" valueTypeId="80d7c3bf-e0b0-4caf-b2c9-1dd8dca8ec09"/>
+    <recordSetType typeId="6f3a92bf-f531-43de-b27c-66dddcc84bd9" valueTypeId="e1dd7b6b-8fb5-499f-9ba2-8233c52efe7d"/>
+    <recordKeyType typeId="8d47377c-2d6e-4d6b-ad94-4c8f9b72b940" valueTypeId="428403c8-ad83-47cd-b5f2-260b7179f964"/>
+    <recordType typeId="0fd7367e-6b65-4a72-b5b7-2965a6197b72" valueTypeId="3ca9b6d5-d27f-46dc-b9c1-aba3860545bd"/>
+    <recordManagerType typeId="1dfe9ce2-847e-4c5b-a4a8-5a5c93554a0d" valueTypeId="d414d038-ca69-4abe-82b0-94c77cdccd46"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c1eeee2a-7330-4adb-b7c8-991aa62e6d30">
+    <name>МетодСписанияПартий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания партий</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
